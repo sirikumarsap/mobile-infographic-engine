@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "dynamic_restrictions": {
+    "locked_tokens": ["Notice", "Warning"],
+    "forbidden_tokens": ["Notice", "Warning"]
+  }
+}

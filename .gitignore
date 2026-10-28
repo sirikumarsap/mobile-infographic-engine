@@ -2,5 +2,9 @@
 # website: https://www.langchain.com/
 # website: https://www.langchain.com/langgraph
 
+__pycache__/
+*.pyc
+infographic/
+
 # LangGraph
 .langgraph_api/

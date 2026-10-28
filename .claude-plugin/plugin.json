@@ -1,0 +1,7 @@
+{
+  "name": "mobile-infographic-engine",
+  "version": "0.2.0",
+  "description": "Builds 9:16 mobile announcement infographics from a content prompt, with restricted-word enforcement, staged references and assets, and automated validation.",
+  "license": "Apache-2.0",
+  "keywords": ["infographic", "mobile", "design"]
+}

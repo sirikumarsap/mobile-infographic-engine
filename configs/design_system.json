@@ -1,29 +1,38 @@
 {
-  "target_displays": {
-    "viewport_size": "6.5 to 7.0 inches",
-    "resolutions": ["1080x1920", "4320x7680 (8K)"],
-    "aspect_ratio": "9:16",
-    "primary_channel": "WhatsApp Full-Screen Preview / Mobile Scroll"
-  },
-  "typography": {
-    "font_family": "Modern Sans-Serif",
-    "alignment": "Left-aligned",
-    "base_font_size": "28px",
-    "rules": ["Generous leading/line-spacing", "High value contrast ratio (WCAG AAA)"]
-  },
-  "ui_elements": {
-    "bullets": "Contextual colored icons matching theme",
-    "segmentation": "Dedicated background panels/cards per section",
-    "padding": {
-      "outer_margin": "40px (Safe zone)",
-      "element_spacing": "24px"
-    }
-  },
-  "fallback_palette": {
-    "primary": "#1E293B",
-    "accent": "#0EA5E9",
-    "background": "#F8FAFC",
-    "text": "#0F172A"
-  },
-  "forbidden_tokens": ["Notice", "Warning", "NOTICE", "WARNING", "notice", "warning"]
+   "target_displays":{
+      "viewport_size":"6.5 to 7.0 inches",
+      "resolutions":[
+         "1080x1920",
+         "4320x7680 (8K)"
+      ],
+      "aspect_ratio":"9:16",
+      "primary_channel":"WhatsApp Full-Screen Preview / Mobile Scroll"
+   },
+   "typography":{
+      "font_family":"Inter, Roboto, Arial, sans-serif",
+      "alignment":"Left-aligned",
+      "base_font_size":"28px",
+      "rules":[
+         "Generous leading/line-spacing",
+         "High value contrast ratio (WCAG AAA)"
+      ]
+   },
+   "ui_elements":{
+      "bullets":"Contextual colored icons matching theme",
+      "segmentation":"Dedicated background panels/cards per section",
+      "padding":{
+         "outer_margin":"40px (Safe zone)",
+         "element_spacing":"24px"
+      }
+   },
+   "fallback_palette":{
+      "primary":"#1E293B",
+      "accent":"#0EA5E9",
+      "background":"#F8FAFC",
+      "text":"#0F172A"
+   },
+   "canvas":{
+      "width":1080,
+      "height":1920
+   }
 }
