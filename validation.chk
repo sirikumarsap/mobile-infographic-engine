@@ -1,0 +1,13 @@
+# Run verification checks against runtime configuration arrays
+state = load_json("/mobile-infographic-engine/configs/system_state.json")
+forbidden_list = state["dynamic_restrictions"]["forbidden_tokens"]
+
+[ASSERT_1]: FOR EACH token IN forbidden_list:
+              IF token exists in layout output text -> FAIL & RE-RENDER.
+              
+[ASSERT_2]: IF any single point or metric from the raw prompt content is omitted -> FAIL & RE-RENDER.
+[ASSERT_3]: IF font scale falls below system_state.json -> typography.base_font_size -> FAIL.
+[ASSERT_4]: Verify padding constraints match state.ui_elements.padding specifications.
+
+# [ASSERT_5]: Verify that image fallback routing correctly pulled assets from either the virtual directories OR the <prompt> filename context.
+
